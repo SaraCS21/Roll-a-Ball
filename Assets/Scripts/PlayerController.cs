@@ -71,7 +71,7 @@ public class PlayerControler : MonoBehaviour
             UnlockNewLevel();
         }
 
-        // Permitir al jugador avanzar a la siguiente escena después de ganar
+        // Permitir al jugador avanzar a la siguiente escena despuï¿½s de ganar
         if (winText.gameObject.activeSelf && Input.GetKeyDown(KeyCode.N))
         {
             LoadNextScene();
@@ -111,11 +111,11 @@ public class PlayerControler : MonoBehaviour
         }
     }
 
-    // Función para cargar la siguiente escena
+    // Funciï¿½n para cargar la siguiente escena
     void LoadNextScene()
     {
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-        SceneManager.LoadScene(nextSceneIndex); // Cargar la siguiente escena por índice
+        SceneManager.LoadScene(nextSceneIndex); // Cargar la siguiente escena por ï¿½ndice
         
     }
 

@@ -70,6 +70,7 @@ Este proyecto cumple con varios requisitos de desarrollo destacados en Unity:
 10. **Enemigo con IA**: Se incluye un enemigo que sigue al jugador usando IA y genera un desafío añadido.
 11. **Personalización de Modelos 3D**: Los coleccionables del juego ahora usan un modelo 3D de moneda en lugar de los modelos básicos, y cada objeto 3D cuenta con skins personalizadas para diferenciarlos según su función.
 12. **Música y Efectos Sonoros**: El juego incluye música de fondo y efectos sonoros que mejoran la experiencia inmersiva del jugador.
+13. **Nivel con VR**: El nivel final funciona con la implementación de VR.
 
 <a id="construido"></a>
 ## Construido con 🛠️
